@@ -69,6 +69,7 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <i id="menuIcon" class="menu-icon fa fa-bars"></i>
+                    <span class="sr-only">Toggle navigation</span>
                 </button>
                 <a class="navbar-brand" href="@Url.Action("Index", "HomeSk")" hreflang="sk"><img class="header-logo" src="@Url.Content("~/images/gloziksoft_logo.png")" alt="Gloziksoft, s.r.o." /></a>
             </div>
@@ -125,8 +126,8 @@
                     <p class="headline">Kde nás nájdete</p>
                     <p class="contact">
                         <span class="rounded-icon"><i class="fa fa-map-marker fa-fw"></i></span> Školská 1573/31, Hriňová<br />
-                        <span class="rounded-icon"><i class="fa fa-phone fa-fw"></i></span> +421 949 317 231<br />
-                        <span class="rounded-icon"><i class="fa fa-envelope fa-fw"></i></span> peto7724@gmail.com<br />
+                        <span class="rounded-icon"><i class="fa fa-phone fa-fw"></i></span> <a href="tel:+421949317231">+421 949 317 231</a><br />
+                        <span class="rounded-icon"><i class="fa fa-envelope fa-fw"></i></span> <a href="mailto:gloziksoft@gloziksoft.sk">gloziksoft@gloziksoft.sk</a><br />
                         <span class="rounded-icon"><i class="fa fa-sitemap fa-fw"></i></span> <a href="@Url.Action("Sitemap", "HomeSk")" hreflang="sk">Mapa stránky</a><br />
                         <span class="rounded-icon"><i class="fa fa-globe fa-fw"></i></span>
                         @Html.ActionLink("EN", (string)ViewBag.LangAction, (string)ViewBag.LangControllerEn, null, new { @hreflang = "en" })
