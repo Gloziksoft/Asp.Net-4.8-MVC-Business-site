@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Websites and applications";
+    ViewBag.Description = "Websites design. Nice and reliable websites and applications on any device.";
+}
+
+@Html.Partial("_ProductMenu")
+
+<div class="background-img-web margin-top-minus-20">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Web Pages</h1>
+                    <p>Create cool and easy-to-use websites accessible on any device.</p>
+                    <p class="normal">Whether you need a responsive web design or another web solution, we've got you covered.</p>
+                    <p class="normal">
+                        <a class="btn btn-primary btn-lg" href="@Url.Action("Web_Projects", "Home")" hreflang="en" role="button">Explore Our Web Projects &raquo;</a>
+                        <a class="btn btn-default btn-lg" href="@Url.Action("Contact", "Home")" hreflang="en" role="button">Contact Us &raquo;</a>
+                    </p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+    @Html.Partial("_WebProjects")
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Responsive Design</h2>
+                <p>With millions of people accessing websites on mobile every day, it's crucial to be prepared. Contact us to ensure your website automatically adjusts to any device screen size.</p>
+                <p>Our responsive designs prioritize user experience, making navigation seamless and content accessible on various devices.</p>
+                <!-- Placeholder for an image related to responsive design -->
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2>Best User Experience (UX)</h2>
+                <p>To achieve the best user experience, every item on each page must be well-designed and strategically placed. Our focus is on creating easy-to-use pages, ensuring users find what they're looking for effortlessly.</p>
+                <p>We conduct thorough user testing to refine our designs and deliver an exceptional user experience.</p>
+                <!-- Placeholder for an image related to UX -->
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2>Speed</h2>
+                <p>You only have a few seconds to capture your visitors' attention. No one waits for slow page loading. We prioritize both sleek design and fast, intuitive websites to keep your audience engaged.</p>
+                <p>Our optimization techniques ensure quick loading times and a smooth browsing experience for your visitors.</p>
+                <!-- Placeholder for an image related to speed -->
+            </div><!-- /.col-md-4 -->
+        </div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Blog";
+    ViewBag.Description = "Ideálny prezentačný a komunikačný kanál pre zverejňovanie noviniek, aktualít a ďalších informácií, ktoré vaši zákazníci žiadajú.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+@Html.Partial("_ProductMenuWebSk")
+
+
+<div class="margin-top-minus-20">
+    <div class="jumbotron dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Blog</h1>
+                    <p>Dajte zákazníkom informácie, ktoré žiadajú!</p>
+                    <p class="normal">Chcete získať ideálny komunikačný kanál pre zverejňovanie aktualít a noviniek?</p>
+                    <p class="normal"><a class="btn btn-primary btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a></p>
+                </div><!-- /.col-md-8 -->
+                <div class="col-md-4">
+
+                </div><!-- /.col-md-4 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h2>Čo je blog?</h2>
+            <p>
+                Na blog pravidelne uverejňujete aktuality, novinky a ďalšie informácie, ktoré vašich zákazníkov zaujímajú.
+                Blog je určitý typ webových stránok, kde je možné pravidelne uverejňovať rôzne články, návody, obrázky, videá, tipy, triky a pod.
+            </p>
+            <p>
+                Blog by mal umožňovať napísať príspevky vopred a zverejniť ich neskôr. Takto môžete na blog napísať viacero článkov a počas dovolenky ich dať postupne zverejniť.
+            </p>
+            <p>
+                Články môžete zaraďovať do kategórií a ak čitateľa niektorá téma zaujme,
+                môže si toho prečítať viac v článkoch sústredených na konkrétnu tému.
+                To zabezpečíte vytvorením štruktúry kategórií.
+            </p>
+            <p>
+                U každého článku je uvedený dátum zverejnenia a autor.
+                Čitatelia, tak vedia, ktoré články už prečítali a môžu sa vždy sústrediť na tie najnovšie alebo na svojho obľúbeného autora.
+            </p>
+            <p>
+                Pre rozprúdenie diskusie môžete dovoliť články komentovať. Ľudia vám priamo k článkom môžu písať otázky,
+                na ktoré môžete reagovať. Budete tak v tesnejšom kontakte so svojimi zákazníkmi.
+            </p>
+        </div><!-- /.col-md-8 -->
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Ako vám blog pomôže?</h3>
+            <p>
+                Poskytnete zákazníkom pravidelné a aktualizované informácie.
+                Prilákate mnohých čitateľov, ktorí sa v budúcnosti stanú vašimi zákazníkmi.
+                S existujúcimi zákazníkmi ste v bližšom kontakte a budujete si s nimi osobnejší vzťah.
+            </p>
+            <p>
+                Čím osobnejší vzťah budete so zákazníkmi mať, tým radšej budú u vás nakupovať. Konkurencia nemá šancu vašich zákazníkov získať.
+            </p>
+            <p>
+                Pravidelne aktualizovaný web so zaujímavým a relevantným obsahom má priaznivý vplyv aj na vaše <a href="@Url.Action("Web_Seo", "HomeSk")" hreflang="sk">SEO</a>.
+                Čím viac toho na vašom webe bude, tým lepšie bude vaše SEO a tým vyššie sa budete nachádzať vo výsledkoch neplateného
+                vyhľadávania cez Google.
+            </p>
+        </div><!-- /.col-md-8 -->
+        <div class="col-md-4">
+            @*<img src="@Url.Content("~/images/blog-income.png")" title="Zvyšovanie návštevnosti webu a príjmov s dlhodobým účinkom" />*@
+        </div><!-- /.col-md-4 -->
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            @*<a href="@Url.Action("Contact", "HomeSk")" hreflang="sk"><img src="@Url.Content("~/images/blog-phone.png")" title="Chcem svoj blog" /></a>*@
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h2>Ako začať?</h2>
+            <p>
+                <a href="@Url.Action("Contact", "HomeSk")" hreflang="sk">Kontaktujte nás</a> a my pre vás pripravíme váš nový blog.
+            </p>
+            <p>
+                Ako bonus od nás získate ďalšie rady a pomoc ako rozširovať vašu obsahovú stratégiu a propagáciu.
+            </p>
+            <p>
+                <a class="btn btn-default btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a>
+            </p>
+        </div><!-- /.col-md-8 -->
+    </div>
+</div>
+
+@Html.Partial("_RegisterMail_PerfectWeb")
+@Html.Partial("_WebProjects")

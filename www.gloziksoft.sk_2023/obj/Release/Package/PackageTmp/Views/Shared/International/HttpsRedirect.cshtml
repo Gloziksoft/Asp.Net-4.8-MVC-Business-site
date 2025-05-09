@@ -1,0 +1,12 @@
+﻿@{
+    Layout = null;
+}
+
+@if (System.Configuration.ConfigurationManager.AppSettings["redirectToHttps"] == "true")
+{
+    <script type="text/javascript">
+            if (window.location.protocol != 'https:') {
+                location.href = location.href.replace("http://", "https://");
+            }
+    </script>
+}

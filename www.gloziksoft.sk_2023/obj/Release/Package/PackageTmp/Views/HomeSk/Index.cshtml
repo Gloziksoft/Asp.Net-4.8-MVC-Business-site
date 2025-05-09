@@ -1,0 +1,78 @@
+﻿@{
+    ViewBag.Title = "Tvorba webov, vývoj softvéru";
+    ViewBag.Description = "Vývoj moderných a funkčných aplikácií dodaných načas. Weby, mobilné aplikácie, Windows programy.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+<!-- start social profiles (https://developers.google.com/structured-data/customize/social-profiles) -->
+<script type="application/ld+json">
+    {
+    "@@context" : "http://schema.org",
+    "@@type" : "Organization",
+    "name" : "GLOZIKSOFT", s.r.o.",
+    "url" : "http://www.gloziksoft.sk",
+    "logo": "http://www.gloziksoft.sk/images/gloziksoft_logo.png",
+    "sameAs" : [
+    "https://www.facebook.com/gloziksoft",
+    "https://twitter.com/gloziksoft",
+    "https://plus.google.com/+gloziksoft",
+    "https://www.youtube.com/c/gloziksoft"
+    ]
+    }
+</script>
+<!-- end social profiles -->
+
+
+<div class="background-img-1">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Webové stránky</h1>
+                    <p>Najrýchlejšia <strong>tvorba</strong> prvotriednych <strong>webových stránok</strong>.</p>
+                    <p class="normal">
+                        Príťažlivý vzhľad, jednoduché ovládanie, dodržaný rozpočet a časový harmonogram.
+                    </p>
+                    @Html.Partial("_SlideVideo")
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+    @Html.Partial("_RegisterMail_PerfectWeb")
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2><i class="fa fa-globe"></i> Tvorba webov</h2>
+                <p>
+                    Jednoduché aj sofistikované <a href="@Url.Action("Web_", "HomeSk")" hreflang="sk">webové stránky</a>, prezentácie a aplikácie.
+                </p>
+                <p>
+                    Pekné, prehľadné, optimalizované pre počítače, tablety aj mobily.
+                </p>
+                <p>
+                    Originálny dizajn, sledovanie návštevnosti a základná <a href="@Url.Action("Web_Seo", "HomeSk")" hreflang="sk">SEO optimalizácia</a> v cene.
+                </p>
+                <p><a class="btn btn-default" href="@Url.Action("Web_", "HomeSk")" hreflang="sk" role="button">Zistite viac &raquo;</a></p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h2><i class="fa fa-rocket"></i> Keď na rýchlosti záleží</h2>
+                <p>
+                    Nenechajte sa obmedzovať čakaním na nový web.
+                    My vám vytvoríme prvotriedny web najrýchlejšie.
+                </p>
+                <p>
+                    Ak vám nový web nedodáme v dohodnutom termíne, nemusíte zaň zaplatiť.
+                </p>
+                <p><a class="btn btn-default" href="@Url.Action("Web_", "HomeSk")" hreflang="sk" role="button">Zistite viac &raquo;</a></p>
+            </div><!-- /.col-md-4 -->
+        </div>
+    </div>
+
+    @Html.Partial("_Testimonials")
+
+</div>
+
+@Html.Action("IndexSk", "News")
+

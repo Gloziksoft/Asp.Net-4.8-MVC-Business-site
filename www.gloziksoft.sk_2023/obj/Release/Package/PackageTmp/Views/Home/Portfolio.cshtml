@@ -1,0 +1,108 @@
+﻿@{
+    ViewBag.Title = "Software development on demand";
+    ViewBag.Description = "Development of Windows, web and mobile applications. Programming for macOS, iOS, watchOS a tvOS.";
+}
+
+@Html.Partial("_ProductMenu")
+
+<video class="portfolio" poster="@Url.Content("~/Content/video/portfolio.jpg")" playsinline autoplay muted loop>
+    <source src="@Url.Content("~/Content/video/portfolio.webm")" type="video/webm">
+    <source src="@Url.Content("~/Content/video/portfolio.mp4")" type="video/mp4">
+</video>
+
+<div class="background-img-portfolio margin-top-minus-20">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="pull-right">
+                        <img src="@Url.Content("~/images/online.png")" title="Development of modern and easy to use applications" />
+                    </span>
+                    <h1>Software development on demand</h1>
+                    <p>
+                        Development of modern and easy to use applications for specific tasks according to the customer needs.
+                    </p>
+                    <p class="normal">
+                        Cool features, easy to use, delivered on time and within a budget.
+                        Wide range of technologies and platforms. Desktop, web, mobile apps, IoT and more.
+                    </p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="pull-right">
+                        <img src="@Url.Content("~/images/product_web.png")" title="Web presentations" />
+                    </span>
+                    <h2>Web apps</h2>
+                    <p>Mobile first responsive websites and presentations.</p>
+                    <p class="normal">
+                        Modern web applications, nice and easy to use on any computer, tablet or smartphone.
+                    </p>
+                    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Web", "Home")" hreflang="en" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="pull-right">
+                        <img src="@Url.Content("~/images/product_windows.png")" title="Windows programs" />
+                    </span>
+                    <h2>Windows applications</h2>
+                    <p>Desktop applications for specific internal tasks.</p>
+                    <p class="normal">
+                        Simple or complicated programs, tools and add-ons for use on Windows operating system computers..
+                    </p>
+                    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Windows", "Home")" hreflang="en" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="pull-right">
+                        <img src="@Url.Content("~/images/product_mobile.png")" title="Mobile applications" />
+                    </span>
+                    <h2>Mobile applications</h2>
+                    <p>Applications for smartphones. Making your business more attractive.</p>
+                    <p class="normal">
+                        Increase efficiency of your advertising, communication and all of your business tasks thanks to modern communication and business handy tools.
+                    </p>
+                    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Mobile", "Home")" hreflang="en" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="pull-right">
+                        <img src="@Url.Content("~/images/product_reprogramming.png")" title="Reprogramming" />
+                    </span>
+                    <h2>Reprogramming</h2>
+                    <p>Cloning old DOS and WINDOWS applications for use in the online space.</p>
+                    <p class="normal">
+                        Completely rewriting all original features to a new programming language with support of new technologies and trends.
+                    </p>
+                    <p><a class="btn btn-primary btn-lg" href="@Url.Action("Reprogramming", "Home")" hreflang="en" role="button">View details &raquo;</a></p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+

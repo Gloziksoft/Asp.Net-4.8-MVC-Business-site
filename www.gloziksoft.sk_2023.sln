@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "www.gloziksoft.sk_2023", "www.gloziksoft.sk_2023\www.gloziksoft.sk_2023.csproj", "{9F73D2A8-7319-470F-9A42-4B5317E5207F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dufeksoft.lib", "..\dufeksoft.lib\dufeksoft.lib\dufeksoft.lib.csproj", "{3B16A948-37A3-4301-B11B-BFDE6E95FB10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dufeksoft.lib", "dufeksoft.lib\dufeksoft.lib.csproj", "{3B16A948-37A3-4301-B11B-BFDE6E95FB10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

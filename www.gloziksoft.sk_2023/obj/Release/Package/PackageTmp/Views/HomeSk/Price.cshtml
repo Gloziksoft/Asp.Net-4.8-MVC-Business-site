@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Cena";
+    ViewBag.Description = "Moderné, funkčné a ľahko ovládateľné programy a aplikácie za najlepšiu cenu.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="pull-right">
+                    @*<img src="@Url.Content("~/images/coins-euro.png")" title="Funkčné aplikácie za férovú cenu" />*@
+                </span>
+                <h1>Férová cena</h1>
+                <p>Žiadne platby vopred, žiadne skryté poplatky.</p>
+                <p class="normal"><a class="btn btn-primary btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Požiadajte o nezáväznú cenovú ponuku &raquo;</a></p>
+            </div><!-- /.col-md-12 -->
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            @*<img src="@Url.Content("~/images/best-price.png")" title="Najlepšia cena za webovú stránku" />*@
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h2>Férová cena bez skrytých poplatkov</h2>
+            <p>
+                Pri každej cenovej kalkulácii zohľadňujeme individuálny prístup a všetky známe faktory.
+                Dohodnutú cenu nenavyšujeme a neúčtujeme žiadne vopred neuvedené poplatky.
+            </p>
+            <p>
+                Na prácu využívame výlučne home office. Nezaťažujú nás náklady na prenájom kancelárií, energie, autá a pod.
+                Pracujeme v malých skupinách prepojených virtuálne prostredníctvom internetu.
+            </p>
+            <h3>Žiadne platby vopred</h3>
+            <p>
+                Vopred neberieme žiadne zálohové platby. Vytvorenie webovej stránky a jej nasadenie je na nás.
+            </p>
+            <p>
+                Ak nebudete s našou prácou spokojní, celý projekt zrušíme a vám nebude nič účtované.
+            </p>
+            <p class="normal margin-top-50"><a class="btn btn-primary btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Požiadajte o nezáväznú cenovú ponuku &raquo;</a></p>
+        </div><!-- /.col-md-8 -->
+    </div>
+</div>
+
+@Html.Partial("_Testimonials")
+
+

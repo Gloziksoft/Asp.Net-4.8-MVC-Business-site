@@ -1,0 +1,247 @@
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.dll.config
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.pdb
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csc.exe
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csc.exe.config
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csc.rsp
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csi.exe
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csi.exe.config
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csi.rsp
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.AppContext.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Console.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.Compression.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Net.Http.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.ValueTuple.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\vbc.exe
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\vbc.exe.config
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\vbc.rsp
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\VBCSCompiler.exe
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Antlr3.Runtime.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Newtonsoft.Json.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Helpers.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Mvc.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Optimization.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Razor.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Razor.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\WebGrease.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Helpers.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Mvc.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Optimization.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Razor.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Razor.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Newtonsoft.Json.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Antlr3.Runtime.pdb
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloz.7F324CDE.Up2Date
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.pdb
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\dufeksoft.lib.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\BouncyCastle.Crypto.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\dufeksoft.lib.pdb
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\cs-CZ\dufeksoft.lib.resources.dll
+C:\Users\Peter\source\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\sk-SK\dufeksoft.lib.resources.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.dll.config
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.pdb
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csc.exe
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csc.exe.config
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csc.rsp
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csi.exe
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csi.exe.config
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\csi.rsp
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.AppContext.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Collections.Immutable.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Console.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Globalization.Calendars.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.Compression.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.FileSystem.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Net.Http.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Net.Sockets.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Reflection.Metadata.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.ValueTuple.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XPath.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\vbc.exe
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\vbc.exe.config
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\vbc.rsp
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\VBCSCompiler.exe
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\roslyn\VBCSCompiler.exe.config
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Antlr3.Runtime.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\dufeksoft.lib.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Microsoft.Web.Infrastructure.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Newtonsoft.Json.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Helpers.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Mvc.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Optimization.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Razor.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Deployment.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Razor.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\WebGrease.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\BouncyCastle.Crypto.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\dufeksoft.lib.pdb
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Helpers.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Mvc.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Optimization.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.Razor.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Deployment.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Razor.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Newtonsoft.Json.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Antlr3.Runtime.pdb
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\cs-CZ\dufeksoft.lib.resources.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\bin\sk-SK\dufeksoft.lib.resources.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.csproj.AssemblyReference.cache
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.csproj.CoreCompileInputs.cache
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloz.7F324CDE.Up2Date
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.dll
+D:\Moja zaloha Dufeksoft Setek ITnetwork\repos\www.gloziksoft.sk_2023\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.pdb
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.dll.config
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\www.gloziksoft.sk_2023.pdb
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\csc.exe
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\csc.exe.config
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\csc.rsp
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\csi.exe
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\csi.exe.config
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\csi.rsp
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.AppContext.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Console.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.IO.Compression.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Net.Http.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.ValueTuple.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\vbc.exe
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\vbc.exe.config
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\vbc.rsp
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\VBCSCompiler.exe
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\Antlr3.Runtime.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\Newtonsoft.Json.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Helpers.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Mvc.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Optimization.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Razor.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.WebPages.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Razor.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\WebGrease.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Helpers.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Mvc.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Optimization.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.Razor.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.WebPages.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\System.Web.WebPages.Razor.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\Newtonsoft.Json.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\Antlr3.Runtime.pdb
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.csproj.AssemblyReference.cache
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.csproj.CoreCompileInputs.cache
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\obj\Debug\www.gloz.7F324CDE.Up2Date
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.dll
+C:\Users\Peter\Desktop\Asp.Net-4.8-MVC-Business-site\www.gloziksoft.sk_2023\obj\Debug\www.gloziksoft.sk_2023.pdb

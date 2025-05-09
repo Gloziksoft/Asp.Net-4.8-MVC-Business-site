@@ -1,0 +1,101 @@
+﻿@model www.gloziksoft.sk_2023.Models.Request.RequestSendModel_En
+@{
+    ViewBag.Title = "Contact";
+    ViewBag.Description = "Contact info. Quality software solutions creator and supplier. Modern applications for 21st century just one click away from you.";
+}
+
+<div class="jumbotron dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="pull-right">
+                    <img src="@Url.Content("~/images/contact.png")" title="Contact us" height="120" />
+                </span>
+                <h1>CONTACT</h1>
+                <p>Write us a message.</p>
+                <p class="normal">
+                    Make difficult moments to your competitors with our solutions.
+                </p>
+            </div><!-- /.col-md-12 -->
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-6">
+    <div class="address">
+        <h3>Creation<br />first class websites</h3>
+        <p>
+            <strong>GLOZIKSOFT,</strong><br />
+            Školská 1573/31<br />
+            962 05 Hriňová<br />
+            Slovakia
+        </p>
+        <p>
+            ID: <br />
+            VAT: <br />
+            Bank: <br />
+            IBAN: <br />
+            SWIFT:
+        </p>
+        <p>
+            <i class="fa fa-phone fa-fw"></i> +421 949 317 231<br />
+            <i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:gloziksoft@gloziksoft.sk">gloziksoft@gloziksoft.sk</a>
+        </p>
+    </div>
+</div><!-- /.col-md-6 -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Contact us</h2>
+            @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "There was an error sending the message. Please correct errors and try again.")
+                <div class="form-group">
+                    <label class="sr-only" for="Name">Name</label>
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Name", tabindex = 1 })
+                    @Html.ValidationMessageFor(m => m.Name)
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="Email">E-mail</label>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "E-mail", type = "email", tabindex = 2 })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="Text">Write your message here</label>
+                    @Html.TextAreaFor(m => m.Text, new { @class = "form-control", placeholder = "Write your message here", style = "height:150px", tabindex = 3 })
+                    @Html.ValidationMessageFor(m => m.Text)
+                </div>
+                <div class="form-group hidden">
+                    <label class="sr-only" for="Email">Captcha</label>
+                    @Html.TextBoxFor(m => m.Captcha, new { @class = "form-control", placeholder = "Captcha" })
+                </div>
+                <div class="form-group">
+                    @if (System.Configuration.ConfigurationManager.AppSettings["recaptchaVersion"] == "pgsoftweb")
+                    {
+                        <div class="form-group password-group">
+                            @Html.LabelFor(m => m.Password)
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+                        <div class="form-group password-group">
+                            @Html.LabelFor(m => m.ConfirmPassword)
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="recaptcha">
+                            @MvcHtmlString.Create(new www.gloziksoft.sk_2023.Models.GoogleRecaptcha().HtmlBody())
+                        </div>
+                    }
+                    <a href="#" onclick="document.getElementById('submitButton').click(); return false;" class="btn btn-primary btn-big btn-darker" tabindex="4">Send</a>
+                    <input type="submit" id="submitButton" class="hidden" />
+                </div>
+            }
+        </div>
+    </div>
+</div>

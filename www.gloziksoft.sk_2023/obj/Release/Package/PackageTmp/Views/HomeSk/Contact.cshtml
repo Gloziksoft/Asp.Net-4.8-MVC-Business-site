@@ -1,0 +1,128 @@
+﻿@model www.gloziksoft.sk_2023.Models.Request.RequestSendModel_Sk
+
+@{
+    ViewBag.Title = "Kontakt";
+    ViewBag.Description = "Kontaktné informácie. Tvorca a dodávateľ kvalitných softvérových riešení. Moderné aplikácie pre 21. storočie iba jeden klik od vás.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+<div class="jumbotron dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="pull-right">
+                    <img src="@Url.Content("~/images/contact.png")" title="Kontaktujte nás" height="120" />
+                </span>
+                <h1>KONTAKT</h1>
+                <p>
+                    S riešeniami od nás pripravíte ťažké chvíle konkurencii.
+                </p>
+            </div><!-- /.col-md-12 -->
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-6">
+    <div class="address">
+        <h3>Tvorba<br />prvotriednych webových stránok</h3>
+        <p>
+            <strong>GLOZIKSOFT </strong><br />
+            Školská 1573/31<br />
+            962 05 Hriňová
+        </p>
+        <p>
+            <i class="fa fa-phone fa-fw"></i> <strong>+421 949 317 231</strong><br />
+            <i class="fa fa-envelope fa-fw"></i> <a href="mailto:gloziksoft@gloziksoft.sk">gloziksoft@gloziksoft.sk</a>
+        </p>
+        <p class="margin-top-30">
+            IČO: <br />
+            DIČ: <br />
+            IČ DPH: <br />
+            Banka:  <br />
+            Číslo účtu: <br />
+            SWIFT: 
+        </p>
+        <p>
+            <em>Spoločnosť GLOZIKSOFT</em>
+        </p>
+    </div>
+            </div><!-- /.col-md-6 -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Napíšte nám</h2>
+            @using (Html.BeginForm("Contact", "HomeSk", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true, "Odoslanie správy bolo neúspešné. Prosím opravte chyby a skúste to znovu.")
+                <div class="form-group">
+                    <label class="sr-only" for="Name">Meno</label>
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control", placeholder = "Meno", tabindex = 1 })
+                    @Html.ValidationMessageFor(m => m.Name)
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="Email">E-mail</label>
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control", placeholder = "E-mail", type = "email", tabindex = 2 })
+                    @Html.ValidationMessageFor(m => m.Email)
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="Name">Telefón</label>
+                    @Html.TextBoxFor(m => m.Phone, new { @class = "form-control", placeholder = "Telefón", tabindex = 3 })
+                    @Html.ValidationMessageFor(m => m.Phone)
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="Text">Sem napíšte správu</label>
+                    @Html.TextAreaFor(m => m.Text, new { @class = "form-control", placeholder = "Sem napíšte správu", style = "height:150px", tabindex = 4 })
+                    @Html.ValidationMessageFor(m => m.Text)
+                </div>
+                /*
+                <div class="form-group">
+                    <div class="price-info">
+                        <label class="sr-only" for="Name">Cena</label>
+                        @Html.TextBoxFor(m => m.Price, new { @class = "form-control", placeholder = "Cena ?", tabindex = 5 })
+                        @Html.ValidationMessageFor(m => m.Price)
+                        <p class="price-info-label">
+                            Chcete vedieť cenu webstránky, eshopu, či iného riešenia?
+                            Napíšte koľko chcete investovať a my vám nájdeme riešenie.
+                        </p>
+                    </div>
+                </div>
+                 */
+                <div class="form-group hidden">
+                    <label class="sr-only" for="Email">Captcha</label>
+                    @Html.TextBoxFor(m => m.Captcha, new { @class = "form-control", placeholder = "Captcha" })
+                </div>
+                <div class="form-group">
+                    @if (System.Configuration.ConfigurationManager.AppSettings["recaptchaVersion"] == "pgsoftweb")
+                    {
+                        <div class="form-group password-group">
+                            @Html.LabelFor(m => m.Password)
+                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </div>
+                        <div class="form-group password-group">
+                            @Html.LabelFor(m => m.ConfirmPassword)
+                            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.ConfirmPassword)
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="recaptcha">
+                            @MvcHtmlString.Create(new www.gloziksoft.sk_2023.Models.GoogleRecaptcha().HtmlBody())
+                        </div>
+                    }
+                    <a href="#" onclick="document.getElementById('submitButton').click(); return false;" class="btn btn-primary btn-lg btn-darker" tabindex="6">Odoslať</a>
+                    <input type="submit" id="submitButton" class="hidden" />
+                </div>
+            }
+        </div><!-- /.col-md-6 -->
+    </div>
+</div>
+
+        @*<hr />
+        <div>
+            @Html.Partial("_RegisterMail_PerfectWeb")
+        </div>*@

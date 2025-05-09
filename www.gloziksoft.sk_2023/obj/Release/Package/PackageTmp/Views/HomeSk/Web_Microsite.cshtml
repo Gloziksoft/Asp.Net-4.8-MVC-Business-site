@@ -1,0 +1,129 @@
+﻿@{
+    ViewBag.Title = "Mikrostránka";
+    ViewBag.Description = "Mikrostránka je skvelý nástroj, ktorý nestojí veľa, ale môže veľa poskytnúť. Ak ešte nemáte svoj vlastný web, tak mikrostránka môže byť jeho začiatkom.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+@Html.Partial("_ProductMenuWebSk")
+
+
+<div class="margin-top-minus-20">
+    <div class="jumbotron dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Mikrostránka</h1>
+                    <p>Jasné, zrozumiteľné a presne cielené informácie, ktoré vaši zákazníci očakávajú.</p>
+                    <p class="normal">Hľadáte skvelý nástroj, ktorý nestojí veľa, ale môže veľa poskytnúť?</p>
+                    <p class="normal"><a class="btn btn-primary btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a></p>
+                </div><!-- /.col-md-8 -->
+                <div class="col-md-4">
+                    @*<img src="@Url.Content("~/images/microsite.png")" title="Mikrostránka" />*@
+                </div><!-- /.col-md-4 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            @*<img src="@Url.Content("~/images/microsite-web.png")" title="Čo je mikrostránka" />*@
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h2>Čo je mikrostránka?</h2>
+            <p>
+                Mikrostránka je jednoduchá webová stránka.
+            </p>
+            <p>
+                Najčastejšie sa mikrostránky vytvárajú na propagáciu konkrétneho produktu alebo služby,
+                prípadne na vysvetlenie konkrétnych pojmov, situácií alebo špecifických vlastností.
+            </p>
+            <p>
+                Príkladom mikrostránky je web <a href="" target="_blank"></a>.
+                Tento web vysvetľuje, čo sa skrýva za pojmom Účtovníctvo online a kedy sa vyplatí miesto klasického účtovného programu
+                používať online účtovníctvo.
+            </p>
+            <p>
+                Mikrostránky využívajú veľmi často aj automobilky pri uvedení nového modelu na trh, aby mohli intenzívnejšie propagovať
+                nový model automobilu.
+            </p>
+            <p>
+                Mikrostránky sa tiež používajú ako vstupné body pre nasmerovanie návštevníkov v konkrétnej krajine na globálny
+                web spoločnosti. Podobne funguje aj náš web <a href="http://www.pgsoftweb.sk" target="_blank">www.pgsoftweb.sk</a>.
+            </p>
+            <p>
+                V zásade neexistuje obmedzenie účelu mikrostránky. Je len na vás na čo mikrostránky využijete.
+                Aj svoj nový web môžete začať stavať v malom formou mikrostránky a postupne ho zväčšovať.
+            </p>
+        </div><!-- /.col-md-8 -->
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Výhody mikrostránky</h3>
+            <p>
+                Výhodou mikrostránky je najmä jej samostatnosť.
+                Nie je zaťažená systémom hlavného webu spoločnosti a nemusí sa striktne podriaďovať štýlu hlavného webu.
+                Akékoľvek zmeny na mikrostránke nenabúrajú chod hlavného webu. Je ich možné vykonávať veľmi rýchlo a kedykoľvek.
+            </p>
+            <p>
+                Zároveň ale mikrostránka môže dodržiavať váš firemný štýl a jasne zapadať do celkovej koncepcie vášho firemného
+                vizuálu a štýlu.
+            </p>
+            <p>
+                Mikrostránku môžete zverejniť na samostatnej webovej adrese. Je vhodné vybrať taký názov a adresu webu, ktorý už v názve jasne signalizuje o čom daná mikrostránka je.
+                Získate tým jednoduchšiu zapamätateľnosť, vyššiu návštevnosť a lepšie SEO.
+            </p>
+            <p>
+                Niekedy sa mikrostránky vytvárajú dokonca iba za účelom <a href="@Url.Action("Web_Seo", "HomeSk")" hreflang="sk">SEO optimalizácie</a>.
+                Čím viac webov, ktoré o vás hovoria a ktoré odkazujú na váš web, produkty a služby existuje, tým lepšie vás Google vníma.
+                Dá sa tomu pomôcť aj budovaním mikrostránok.
+            </p>
+            <p>
+                Náklady na vytvorenie mikrostránky nie sú zvyčajne vysoké. Samotná prevádzka mikrostránky stojí ročne do 100 Euro.
+            </p>
+        </div><!-- /.col-md-8 -->
+        <div class="col-md-4">
+            @*<img src="@Url.Content("~/images/microsite-advantage.png")" title="Výhody mikrostránok" />*@
+        </div><!-- /.col-md-4 -->
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="@Url.Action("Contact", "HomeSk")" hreflang="sk">@*<img src="@Url.Content("~/images/microsite-phone.png")" title="Chcem mikrostránku" />*@</a>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h2>Ako začať?</h2>
+            <p>
+                Mikrostránka by mala byť samozrejme responzívna.
+                To znamená, že by mala byť pekná, prehľadná a funkčná na počítači, tablete aj mobile.
+                Responzívna mikrostránka vám zaistí, že aj návštevníci z mobilu, na vašom webe ostanú, pretože tam nájdu potrebné informácie.
+                Nenechajte návštevníkov z mobilu nakupovať u konkurencie len preto, že nemáte moderný responzívny web.
+            </p>
+            <p>
+                Mikrostránka je jeden z konceptov na tvorbu obsahovej stratégie pre vaše online podnikanie.
+                Pomáha vám efektívne budovať online podnikanie, ktoré bude zarábať.
+            </p>
+            <p>
+                Zaujal vás koncept mikrostránok?
+            </p>
+            <p>
+                <a class="btn btn-default btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a>
+            </p>
+        </div><!-- /.col-md-8 -->
+    </div>
+</div>
+
+@Html.Partial("_RegisterMail_PerfectWeb")
+@Html.Partial("_WebProjects")
+
+

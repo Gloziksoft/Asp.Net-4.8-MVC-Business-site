@@ -1,0 +1,99 @@
+﻿@{
+    ViewBag.Title = "Tvorba webov";
+    ViewBag.Description = "Tvorba webových stránok. Firemný web, blog, e-shop, redakčný systém, mobilný web, SEO optimalizácia. Riešenia, ktoré vám budú zarábať.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+@Html.Partial("_ProductMenuWebSk")
+
+
+<div class="background-img-web margin-top-minus-20">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Tvorba webov</h1>
+                    <p>
+                        Nechcete dlho čakať na novú webovú stránku?
+                    </p>
+                    <p class="normal">Chcete prvotriedny web, mikrostránku, blog, či e-shop?</p>
+                    <p class="normal">
+                        <a class="btn btn-primary btn-lg" href="@Url.Action("Web_Projects", "HomeSk")" hreflang="sk" role="button">Moje projekty &raquo;</a>
+                        <a class="btn btn-default btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a>
+                    </p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+    @Html.Partial("_RegisterMail_PerfectWeb")
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2><i class="fa fa-globe"></i> Prvotriedny web</h2>
+                <p>
+                    Tvorba prvotriednych webových stránok, vyžaduje znalosti a skúsenosti. My ich máme.
+                </p>
+                <p>
+                    Vytvoríme vám web, <a href="@Url.Action("Web_Blog", "HomeSk")" hreflang="sk">blog</a>, či <a href="@Url.Action("Web_Eshop", "HomeSk")" hreflang="sk">e-shop</a>, ktorý bude pekný, moderný a funkčný.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3><i class="fa fa-thumbs-up"></i> Obľúbený web</h3>
+                <p>
+                    Pomôžeme alebo celkom zabezpečíme pre váš web <a href="@Url.Action("Web_Seo", "HomeSk")" hreflang="sk">SEO optimalizácie pre vyhľadávače</a>, sociálne siete,
+                    blogy a pod.
+                </p>
+                <p>
+                    Získate cenné rady a pomoc pri využívaní platenej propagácie vo vyhľadávaní, či na sociálnych sieťach.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3><i class="fa fa-bar-chart"></i> Web pod kontrolou</h3>
+                <p>
+                    Poskytneme vám nástroje na sledovanie činnosti návštevníkov na vašom webe.
+                </p>
+                <p>
+                    Na ich základe, môžete navrhovať zlepšenia pre vaše webové stránky, či e-shop a pritiahnuť tak oveľa viac zákazníkov.
+                </p>
+            </div><!-- /.col-md-4 -->
+        </div>
+    </div>
+
+    @Html.Partial("_WebProjects")
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2><i class="fa fa-tablet"></i> Responzívny dizajn</h2>
+                <p>
+                    Milióny ľudí každý deň navštevujú web na mobile. Je dôležité, aby vaše webové prezentácie boli na to pripravené.
+                </p>
+                <p>
+                    Vytvoríme pre vás webové stránky, ktorých vzhľad sa automaticky prispôsobuje veľkosti obrazovky, na ktorej návštevník web
+                    sleduje.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3><i class="fa fa-smile-o"></i> Prehľadnosť</h3>
+                <p>
+                    Prvky na stránke musia byť logicky a zmysluplne usporiadané, aby orientácia na stránke bola rýchla a jednoduchá.
+                </p>
+                <p>
+                    Ovládanie musí byť jednoduché a všetko musí byť umiestnené tam, kde to ľudia očakávajú.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3><i class="fa fa-rocket"></i> Rýchlosť</h3>
+                <p>
+                    Máte iba pár sekúnd na to, aby ste návštevníka stránky zaujali. Nikto nebude dlho čakať na načítanie stránky.
+                </p>
+                <p>
+                    Sústredíme úsilie nielen na pekný dizajn, ale aj na to, aby sa stránky načítali rýchlo.
+                </p>
+            </div><!-- /.col-md-4 -->
+        </div>
+    </div>
+
+    @Html.Partial("_Testimonials")
+</div>
+

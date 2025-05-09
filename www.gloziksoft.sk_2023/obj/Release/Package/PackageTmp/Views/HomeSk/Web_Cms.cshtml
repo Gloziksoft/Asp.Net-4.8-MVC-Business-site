@@ -1,0 +1,118 @@
+﻿@{
+    ViewBag.Title = "Správa obsahu webu";
+    ViewBag.Description = "Obsah svojho webu môžete meniť kedykoľvek a odkiaľkoľvek. Nemusíte čakať, kým vám zmeny programátor zapracuje.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+@Html.Partial("_ProductMenuWebSk")
+
+
+<div class="margin-top-minus-20">
+    <div class="jumbotron dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Správa obsahu webu</h1>
+                    <p>Na úpravu webových stránok nepotrebujete programátora.</p>
+                    <p class="normal">Obsah svojho webu môžete meniť kedykoľvek a odkiaľkoľvek.</p>
+                    <p class="normal"><a class="btn btn-primary btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a></p>
+                </div><!-- /.col-md-8 -->
+                <div class="col-md-4">
+                    @*<img src="@Url.Content("~/images/cms.png")" title="Správa obsahu webu" />*@
+                </div><!-- /.col-md-4 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            @*<img src="@Url.Content("~/images/cms-web.png")" title="Čo je CMS" />*@
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h2>Content Management System</h2>
+            <p>
+                Content Management System je riešenie, ktoré vám umožní vykonávať vlastnoručne úpravy svojho webu.
+                Môžete sa taktiež stretnúť so skratkou CMS alebo slovenským pojmom Systém pre správu obsahu.
+            </p>
+            <p>
+                Na začiatku vám programátor vytvorí základný web. Zapracuje pripravenú grafiku, texty, pripraví menu,
+                rôzne formuláre a vytvorí šablóny pre jednotlivé typy podstránok.
+                Postupne tvorbu webu pripomienkujete až jedného dňa vám programátor odovzdá hotové webové stránky.
+            </p>
+            <p>
+                Čas potrebný na vytvorenie webu závisí od jeho rozsahu a funkčnosti.
+                <a href="@Url.Action("Web_Microsite", "HomeSk")" hreflang="sk">Najjednoduchší web</a> môžete mať k dispozícii už na druhý deň. Tie zložité v priebehu niekoľkých týždňov.
+                Vo výnimočných prípadoch môže tvorba webu zabrať aj niekoľko mesiacov, ale to nie je prípad webov,
+                ktoré bežne firmy používajú na svoju prezentáciu a propagáciu.
+            </p>
+            <p>
+                Keď vám programátor web a CMS rozhranie odovzdá, potom už máte web vo vlastných rukách a
+                môžete ho kedykoľvek upravovať.
+            </p>
+        </div><!-- /.col-md-8 -->
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Výhody CMS</h3>
+            <p>
+                Výhodou CMS je najmä fakt, že obsah webu si môžete meniť sami. Nemusíte kontaktovať programátora, aby zmenu za vás vykonal.
+                CMS zásadne skracuje čas na úpravy webu a <strong>šetrí peniaze</strong>, ktoré by ste za každú úpravu museli platiť programátorovi.
+            </p>
+            <p>
+                CMS je ideálnym nástrojom na podporu <a href="@Url.Action("Web_Seo", "HomeSk")" hreflang="sk">SEO optimalizácie</a>. Váš web môže byť vždy aktuálny.
+                Môžete tam každý deň zverejňovať informácie o novinkách a akciách.
+            </p>
+            <p>
+                Jednoduchým spôsobom dokážete písať články na <a href="@Url.Action("Web_Blog", "HomeSk")" hreflang="sk">blog</a>, spravovať jednotlivé jazykové verzie webu, meniť obrázky, texty alebo
+                aj pridávať úplne nové podstránky.
+            </p>
+            <p>
+                So zložitejšími úpravami môžete znovu osloviť programátora.
+            </p>
+        </div><!-- /.col-md-8 -->
+        <div class="col-md-4">
+            @*<img src="@Url.Content("~/images/cms-advantage.png")" title="Výhody CMS" />*@
+        </div><!-- /.col-md-4 -->
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="@Url.Action("Contact", "HomeSk")" hreflang="sk">@*<img src="@Url.Content("~/images/cms-phone.png")" title="Chcem CMS" />*@</a>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <h2>Ako začať?</h2>
+            <p>
+                Na internete nájdete aj služby, ktoré vám ponúkajú možnosti úplného samoobslužného vytvorenia webovej stránky.
+                Ak sa nezaoberáte problematikou tvorby webu, nehovorí vám nič SEO optimalizácia a ani nie ste profesionálny grafik,
+                potom sa do samoobslužnej tvorby webu nepúšťajte.
+            </p>
+            <p>
+                Vytvorenie webových stránok vyžaduje oveľa viac ako iba písanie textov a pridávanie obrázkov stiahnutých cez Google.
+                Tvorba webových stránok vyžaduje znalosti prispôsobenia webu pre mobily a tablety, znalosti <a href="@Url.Action("Web_Seo", "HomeSk")" hreflang="sk">SEO optimalizácie</a>
+                a ďalšie iné skúsenosti. Bez potrebných skúseností pekný, funkčný a prosperujúci web nevytvoríte.
+            </p>
+            <p>
+                Chcete mať webové stránky, ktoré si môžete sami upravovať?
+            </p>
+            <p>
+                <a class="btn btn-default btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a>
+            </p>
+        </div><!-- /.col-md-8 -->
+    </div>
+</div>
+
+@Html.Partial("_RegisterMail_PerfectWeb")
+@Html.Partial("_WebProjects")
+
+

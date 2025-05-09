@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title = "Mapa stránky";
+    ViewBag.Description = "Vývoj softvéru na mieru. Weby, e-shopy, blogy, intranet, mobilné apky, Windows programy, pomôcky a doplnky.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Mapa stránky</h1>
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>VŠEOBECNÉ</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="@Url.Action("Index", "HomeSk")" hreflang="sk">Úvod</a></li>
+                <li><a href="@Url.Action("Price", "HomeSk")" hreflang="sk">Cenník</a></li>
+                <li><a href="@Url.Action("Contact", "HomeSk")" hreflang="sk">Kontakt</a></li>
+            </ul>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <h2>TVORBA WEBOV</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="@Url.Action("Web_", "HomeSk")" hreflang="sk">Webové stránky</a></li>
+                <li><a href="@Url.Action("Web_Microsite", "HomeSk")" hreflang="sk">Mikrostránka</a></li>
+                <li><a href="@Url.Action("Web_Cms", "HomeSk")" hreflang="sk">Správa obsahu webu</a></li>
+                <li><a href="@Url.Action("Web_Blog", "HomeSk")" hreflang="sk">Blog</a></li>
+                <li><a href="@Url.Action("Web_Eshop", "HomeSk")" hreflang="sk">E-shop</a></li>
+                <li><a href="@Url.Action("Web_Seo", "HomeSk")" hreflang="sk">SEO</a></li>
+            </ul>
+        </div><!-- /.col-md-4 -->
+
+        <div class="col-md-4">
+            <h2>SOCIÁLNE MÉDIÁ</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="https://www.facebook.com/pgsoftweb/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/pgsoftweb/" target="_blank">Twitter</a></li>
+                <li><a href="https://plus.google.com/+Pgsoftweb" target="_blank">Google Plus</a></li>
+                <li><a href="https://www.youtube.com/+Pgsoftweb" target="_blank">You Tube</a></li>
+                <li><a href="@Url.Action("Web_Blog", "HomeSk")" hreflang="sk" targert ="_blank">Blog</a></li>
+            </ul>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <h2>MEDZINÁRODNÉ</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="@Url.Action("Index", "Main")" hreflang="sk">Vstupná stránka</a></li>
+                <li>@Html.ActionLink("Anglicky", (string)ViewBag.LangAction, (string)ViewBag.LangControllerEn, null, new { @hreflang = "en" })</li>
+                <li>@Html.ActionLink("Slovensky", (string)ViewBag.LangAction, (string)ViewBag.LangControllerSk, null, new { @hreflang = "sk" })</li>
+            </ul>
+        </div><!-- /.col-md-4 -->
+    </div>
+</div>

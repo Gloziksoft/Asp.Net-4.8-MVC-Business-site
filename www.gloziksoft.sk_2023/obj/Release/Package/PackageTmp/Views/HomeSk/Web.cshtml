@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Tvorba web stránok";
+    ViewBag.Description = "Tvorba web stránok. Pekné a funkčné webové stránky, e-shopy a aplikácie dobre čitateľné aj na mobile. Riešenia, ktoré vám budú zarábať.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+@Html.Partial("_ProductMenuSk")
+
+
+<div class="background-img-web margin-top-minus-20">
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Web stránky</h1>
+                    <p>Firemný web, osobná stránka, mikrostránka, blog, či e-shop</p>
+                    <p class="normal">Vytvoríme vám pekný a funkčný web podľa vašich individuálnych požiadaviek</p>
+                    <p class="normal"><a class="btn btn-primary btn-lg" href="@Url.Action("Web_", "HomeSk")" hreflang="sk" role="button">Zistite viac o tvorbe webov &raquo;</a></p>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row margin-bottom-0">
+            <div class="col-md-4">
+                <h2><i class="fa fa-globe"></i> Web, ktorý zarába</h2>
+                <p>
+                    Vytvoríme vám <a href="@Url.Action("Web_", "HomeSk")" hreflang="sk">web</a>, <a href="@Url.Action("Web_Blog", "HomeSk")" hreflang="sk">blog</a>, či <a href="@Url.Action("Web_Eshop", "HomeSk")" hreflang="sk">e-shop</a>, ktorý bude zarábať.
+                </p>
+                <p>
+                    Prezradíme vám ako priviesť na webové stránky, čo najviac zákazníkov a ako ich presvedčiť k nákupu u vás.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3>Obľúbený web</h3>
+                <p>
+                    Pekný a jednoduchý dizajn, intuitívne ovládanie a prehľadné menu.
+                </p>
+                <p>
+                    Web by mal v prvom rade slúžiť vašim zákazníkom.
+                    Musia na ňom nájsť rýchlo a jednoducho všetky informácie, ktoré hľadajú.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3>Responzívny dizajn</h3>
+                <p>
+                    Mobilný web už dnes nie je odporúčaním. Mobilný web je dnes nutnosť.
+                </p>
+                <p>
+                    Získajte webové stránky optimalizované pre zobrazenie na počítači, tablete aj mobile.
+                </p>
+            </div><!-- /.col-md-4 -->
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Jednoduché weby</h3>
+                <p>
+                    Je to jednoduché, rýchle a za férovú cenu.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3>Špecializované weby</h3>
+                <p>
+                    Nevytvárame iba jednoduché prezentačné osobné, či firemné weby.
+                </p>
+            </div><!-- /.col-md-4 -->
+            <div class="col-md-4">
+                <h3>Zistite viac</h3>
+
+                <p>
+                <p class="normal"><a class="btn btn-default btn-lg" href="@Url.Action("Web_", "HomeSk")" hreflang="sk" role="button">Zistite viac o tvorbe webov &raquo;</a></p>
+                </p>
+            </div><!-- /.col-md-4 -->
+        </div>
+    </div>
+
+    @Html.Partial("_Testimonials")
+</div>

@@ -396,12 +396,6 @@
     <Content Include="Views\HomeSk\Web_BlogNews.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\dufeksoft.lib\dufeksoft.lib\dufeksoft.lib.csproj">
-      <Project>{3b16a948-37a3-4301-b11b-bfde6e95fb10}</Project>
-      <Name>dufeksoft.lib</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>

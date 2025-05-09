@@ -1,0 +1,57 @@
+﻿@{
+    ViewBag.Title = "Tvorba webov a vývoj softvéru";
+    ViewBag.Description = "Tvorba webov a vývoj softvéru na mieru. Funkčné aplikácia dodané načas. Web stránky, ktoré vám budú zarábať.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+    <!-- start social profiles (https://developers.google.com/structured-data/customize/social-profiles) -->
+<script type="application/ld+json">
+    {
+    "@@context" : "http://schema.org",
+    "@@type" : "Organization",
+    "name" : "GLOZIKSOFT, s.r.o.",
+    "url" : "http://www.gloziksoft.sk",
+    "logo": "http://www.gloziksoft.sk/images/gloziksoft_logo.png",
+    "sameAs" : [
+    "https://www.facebook.com/gloziksoft",
+    "https://twitter.com/gloziksoft",
+    "https://plus.google.com/+gloziksoft",
+    "https://www.youtube.com/c/gloziksoft"
+    ]
+    }
+</script>
+    <!-- end social profiles -->
+
+
+    <video class="portfolio" poster="@Url.Content("~/Content/video/portfolio.jpg")" playsinline autoplay muted loop>
+        <source src="@Url.Content("~/Content/video/portfolio.webm")" type="video/webm">
+        <source src="@Url.Content("~/Content/video/portfolio.mp4")" type="video/mp4">
+    </video>
+
+    <div class="background-img-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mainpage-block margin-top-20">
+                        <img src="@Url.Content("~/images/gloziksoft_logo.png")" width="400" alt="Gloziksoft, s.r.o." />
+                    </div>
+                </div><!-- /.col-md-12 -->
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mainpage-block">
+                        <h1>Tvorba webov</h1>
+                        <h2><a href="@Url.Action("Index", "HomeSk")" hreflang="sk">Slovenský jazyk &raquo;</a></h2>
+                    </div>
+                    <br />
+                </div><!-- /.col-md-12 -->
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mainpage-block">
+                        <h1>Creation of websites.</h1>
+                        <h2><a href="@Url.Action("Index", "Home")" hreflang="en">English language  &raquo;</a></h2>
+                    </div>
+                </div><!-- /.col-md-12 -->
+            </div>
+        </div>
+    </div>

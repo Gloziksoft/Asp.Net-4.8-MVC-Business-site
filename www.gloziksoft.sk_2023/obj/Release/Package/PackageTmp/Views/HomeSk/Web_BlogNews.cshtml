@@ -1,0 +1,138 @@
+﻿@{
+    ViewBag.Title = "Blog News";
+    ViewBag.Description = "Ideálny prezentačný a komunikačný kanál pre zverejňovanie noviniek, aktualít a ďalších informácií, ktoré vaši zákazníci žiadajú.";
+    Layout = "~/Views/SharedSk/_Layout.cshtml";
+}
+
+@Html.Partial("_ProductMenuWebSk")
+
+<div class="margin-top-minus-20">
+    <div class="jumbotron dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>Blog, Novinky a Správy</h1>
+                    <p>Zistite najnovšie informácie o tvorbe webov, e-shopov a SEO optimalizácii.</p>
+                    <p class="normal">Chcete vytvoriť modernú webovú stránku alebo e-shop? Ponúkame najlepšie riešenia pre vaše podnikanie!</p>
+                    <p class="normal">
+                        <a class="btn btn-primary btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a>
+                    </p>
+                </div><!-- /.col-md-8 -->
+                <div class="col-md-4">
+                    <img src="@Url.Content("~/images/blog-header.jpg")" alt="Blog a novinky" class="img-responsive" />
+                </div><!-- /.col-md-4 -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Novinky</h2>
+            <p>
+                Sledujte najnovšie novinky o našich službách, aktualizáciách produktov a nových funkciách pre webové stránky a e-shopy.
+            </p>
+            <p>
+                S našimi novinkami budete vždy informovaní o najnovších trendoch v oblasti webdizajnu a SEO.
+            </p>
+            <img src="@Url.Content("~/images/news.jpg")" alt="Novinky" class="img-responsive" />
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <h2>Správy o SEO a Tvorbe Webov</h2>
+
+            <p><strong>1. Čo je SEO a prečo je dôležité?</strong></p>
+            <p>
+                SEO (optimalizácia pre vyhľadávače) je proces zlepšovania viditeľnosti webových stránok vo vyhľadávačoch ako Google. Kvalitné SEO pomáha získať viac návštevníkov na vašu stránku bez nutnosti platenej reklamy. Prečítajte si viac o tom, ako môžete vylepšiť svoje SEO a zvýšiť organickú návštevnosť.
+            </p>
+
+            <p><strong>2. Responzívny dizajn: Prečo je dôležitý?</strong></p>
+            <p>
+                Responzívny dizajn zaisťuje, že vaša webová stránka sa správne zobrazuje na všetkých zariadeniach - od počítačov až po smartfóny. Zistite, ako responzívny dizajn ovplyvňuje spokojnosť užívateľov a SEO.
+            </p>
+
+            <p><strong>3. Najnovšie trendy v tvorbe e-shopov</strong></p>
+            <p>
+                Vytvorenie úspešného e-shopu vyžaduje viac než len pekný dizajn. Naučte sa o najnovších trendoch v e-commerce vrátane integrácie platobných brán, UX/UI dizajnu a automatizácie marketingu.
+            </p>
+            <img src="@Url.Content("~/images/seo1.jpg")" alt="SEO a Web" class="img-responsive" />
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <h2>Blog</h2>
+
+            <p><strong>4. Ako zvýšiť návštevnosť vašej webovej stránky?</strong></p>
+            <p>
+                Získanie väčšieho množstva návštevníkov na vašej stránke je kľúčové pre úspech. Prečítajte si, aké kroky môžete podniknúť, aby ste zvýšili návštevnosť a zlepšili svoje konverzie.
+            </p>
+
+            <p><strong>5. 10 tipov na efektívny UX dizajn</strong></p>
+            <p>
+                Užívateľská skúsenosť (UX) je dôležitá pre každú webovú stránku. Objavte 10 najlepších tipov, ako zlepšiť UX dizajn vašej stránky a zvýšiť spokojnosť používateľov.
+            </p>
+
+            <p><strong>6. Prečo je rýchlosť webu dôležitá pre SEO?</strong></p>
+            <p>
+                Rýchlosť načítania webovej stránky je jedným z kľúčových faktorov, ktorý ovplyvňuje SEO a používateľský zážitok. Naučte sa, ako optimalizovať svoju stránku a získať lepšie výsledky vo vyhľadávačoch.
+            </p>
+            <img src="@Url.Content("~/images/blog.jpg")" alt="Blog - web" class="img-responsive" />
+        </div><!-- /.col-md-4 -->
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Prečo sledovať náš blog, novinky a správy?</h3>
+            <p>
+                S pravidelnými aktualizáciami získate najnovšie informácie o webových trendoch, ktoré vám pomôžu zvýšiť výkon vašich stránok či e-shopu.
+            </p>
+            <p>
+                Či už potrebujete vylepšiť SEO, navrhnúť modernú webovú stránku alebo rozbehnúť úspešný e-shop, naše rady a správy vám ukážu, ako na to.
+            </p>
+            <img src="@Url.Content("~/images/news1.jpg")" alt="Pomoc pre podnikanie" class="img-responsive" />
+        </div><!-- /.col-md-8 -->
+        <div class="col-md-4">
+            <h3>Ako môžeme pomôcť vášmu podnikaniu?</h3>
+            <p>
+                Ponúkame profesionálne služby tvorby webových stránok, e-shopov, SEO optimalizácie a ďalšie. Kontaktujte nás a zistite, ako vám môžeme pomôcť dosiahnuť úspech.
+            </p>
+            <img src="@Url.Content("~/images/seo.jpg")" alt="Pomoc pre podnikanie" class="img-responsive" />
+        </div><!-- /.col-md-4 -->
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Kontaktujte nás</h2>
+            <p>
+                Chcete moderný web alebo potrebujete pomoc s optimalizáciou pre vyhľadávače (SEO)? <a href="@Url.Action("Contact", "HomeSk")" hreflang="sk">Kontaktujte nás</a> a my vám pripravíme ideálne riešenie.
+            </p>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-8">
+            <p>
+                Pomôžeme vám vytvoriť atraktívne webové stránky, ktoré vám prinesú viac zákazníkov a lepšie umiestnenie vo vyhľadávačoch.
+            </p>
+            <p>
+                <a class="btn btn-default btn-lg" href="@Url.Action("Contact", "HomeSk")" hreflang="sk" role="button">Kontaktujte nás &raquo;</a>
+            </p>
+        </div><!-- /.col-md-8 -->
+    </div>
+</div>
+
+@Html.Partial("_RegisterMail_PerfectWeb")
+@Html.Partial("_WebProjects")

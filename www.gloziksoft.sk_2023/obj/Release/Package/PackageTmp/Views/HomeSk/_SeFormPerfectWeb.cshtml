@@ -1,0 +1,16 @@
+﻿<div class="se-form-pgsoftweb">
+    <script src="https://app.smartemailing.cz//public/web-forms/subscribe/83626-9ytle6pvi5u7ffd88mwejwg92qb3dynwvof1u9xqbo50p3ztlrurxbj8it0ycfl2pnl14hsrrd4vwbbqfbknmyt5hfsejgbamuxw" id="se-webformScriptLoader-9ytle6pvi5u7ffd88mwejwg92qb3dynwvof1u9xqbo50p3ztlrurxbj8it0ycfl2pnl14hsrrd4vwbbqfbknmyt5hfsejgbamuxw"></script>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        setTimeout(seCreateButton, 1000);
+    });
+    function seCreateButton() {
+        $('.se-form-pgsoftweb input[type=text]').attr('placeholder', 'E-mail');
+        $('.se-form-pgsoftweb input[type=text]').after('<a href="#" onclick="seFormSubmit(); return false;" class="btn btn-primary btn-big btn-darker" tabindex="99">Chcem perfektný web</a>');
+    }
+    function seFormSubmit() {
+        $('.se-form-pgsoftweb button').click();
+    }
+</script>
+<link href="@Url.Content("~/Content/css/se-form.min.css")" rel="stylesheet">

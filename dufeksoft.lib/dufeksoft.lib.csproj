@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B16A948-37A3-4301-B11B-BFDE6E95FB10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dufeksoft.lib</RootNamespace>
+    <AssemblyName>dufeksoft.lib</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\..\GoodWords\www.goodwords.cz\packages\Portable.BouncyCastle.1.8.9\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Files\FileList.cs" />
+    <Compile Include="Http\HttpHelper.cs" />
+    <Compile Include="Img\ImageResizer.cs" />
+    <Compile Include="Localization\DufeksoftLibResource.cs-CZ.Designer.cs">
+      <DependentUpon>DufeksoftLibResource.cs-CZ.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localization\DufeksoftLibResource.sk-SK.Designer.cs">
+      <DependentUpon>DufeksoftLibResource.sk-SK.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Localization\DufeksoftLibResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DufeksoftLibResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Mail\MailAttachement.cs" />
+    <Compile Include="Mail\MailProvider.cs" />
+    <Compile Include="Mail\TextTemplate.cs" />
+    <Compile Include="Mail\TextTemplateParam.cs" />
+    <Compile Include="Model\Captcha\DufeksoftRecaptcha.cs" />
+    <Compile Include="Model\Contact\ContactModel.cs" />
+    <Compile Include="Model\Contact\ContactModel_Cs.cs" />
+    <Compile Include="Model\Contact\ContactModel_De.cs" />
+    <Compile Include="Model\Contact\ContactModel_Sk.cs" />
+    <Compile Include="Model\GpWebpay\GpwpCardPayResponse.cs" />
+    <Compile Include="Model\GpWebpay\GpwpCardPayRequest.cs" />
+    <Compile Include="Model\GpWebpay\GpwpSignature.cs" />
+    <Compile Include="Model\Grid\GridPagerAndSorterModel.cs" />
+    <Compile Include="Model\Grid\GridRowsModel.cs" />
+    <Compile Include="Model\Grid\GridSorterModel.cs" />
+    <Compile Include="Model\Grid\GridPagerModel.cs" />
+    <Compile Include="Model\ModelUtil.cs" />
+    <Compile Include="Model\ModelValidation.cs" />
+    <Compile Include="Model\Photo\PhotoGalleryItem.cs" />
+    <Compile Include="Model\Captcha\GoogleRecaptcha.cs" />
+    <Compile Include="Model\Sporopay\SporopayResponse.cs" />
+    <Compile Include="Model\Sporopay\SporopayRequest.cs" />
+    <Compile Include="Model\Sporopay\SporopaySignature.cs" />
+    <Compile Include="Model\TatraCardPay\TatraCardPayCfg.cs" />
+    <Compile Include="Model\TatraCardPay\TatraCardPayEncoding.cs" />
+    <Compile Include="Model\TatraCardPay\TatraCardPayRequest.cs" />
+    <Compile Include="Model\TatraCardPay\TatraCardPayResponse.cs" />
+    <Compile Include="Model\TatraPay\TatraPayEncoding.cs" />
+    <Compile Include="Model\TatraPay\TatraPayRequest.cs" />
+    <Compile Include="Model\TatraPay\TatraPayResponse.cs" />
+    <Compile Include="Model\VubCard\VubCardPaymentResultModel.cs" />
+    <Compile Include="Model\VubCard\VubCardPaymentModel.cs" />
+    <Compile Include="Model\VubEPlatby\VubEPlatbyRequest.cs" />
+    <Compile Include="Model\VubEPlatby\VubEPlatbyResponse.cs" />
+    <Compile Include="Model\VubEPlatby\VubEPlatbySignature.cs" />
+    <Compile Include="ParamSet\XmlParamSet.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Text\StringHelper.cs" />
+    <Compile Include="UI\CmpDropDown.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\DufeksoftLibResource.cs-CZ.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DufeksoftLibResource.cs-CZ.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\DufeksoftLibResource.sk-SK.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DufeksoftLibResource.sk-SK.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\DufeksoftLibResource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DufeksoftLibResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

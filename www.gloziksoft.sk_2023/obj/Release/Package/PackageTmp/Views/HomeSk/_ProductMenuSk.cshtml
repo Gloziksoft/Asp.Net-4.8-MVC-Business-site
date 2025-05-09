@@ -1,0 +1,20 @@
+﻿@{
+    Layout = null;
+}
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-product" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <i id="menuIconProtect" class="menu-icon fa fa-bars"></i>
+            </button>
+        </div>
+        <div id="navbar-product" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li class="@ViewBag.CssClassSubMenuPortfolio">@Html.ActionLink("Vývoj softvéru na mieru", "Portfolio", "HomeSk", null, new { @hreflang = "sk" })</li>
+                <li class="@ViewBag.CssClassSubMenuWeb">@Html.ActionLink("Web stránky", "Web", "HomeSk", null, new { @hreflang = "sk" })</li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>

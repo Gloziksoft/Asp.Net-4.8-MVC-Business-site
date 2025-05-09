@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Sitemap";
+    ViewBag.Description = "Software development on demand. Websites, e-commerce, blogs, intranet, mobile apps, Windows programs, tools and add-ons.";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Sitemap</h1>
+            <hr />
+        </div><!-- /.col-md-12 -->
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>GENERAL</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="@Url.Action("Index", "Home")" hreflang="en">Home</a></li>
+                <li><a href="@Url.Action("Price", "Home")" hreflang="en">Price</a></li>
+                <li><a href="@Url.Action("Contact", "Home")" hreflang="en">Contact</a></li>
+            </ul>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <h2>WEBSITES</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="@Url.Action("Web", "Home")" hreflang="en">Website design</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <h2>SOCIAL MEDIA</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="https://www.facebook.com/pgsoftweb/" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/pgsoftweb/" target="_blank">Twitter</a></li>
+                <li><a href="https://plus.google.com/+Pgsoftweb" target="_blank">Google Plus</a></li>
+                <li><a href="https://www.youtube.com/+Pgsoftweb" target="_blank">You Tube</a></li>
+            </ul>
+        </div><!-- /.col-md-4 -->
+        <div class="col-md-4">
+            <h2>INTERNATIONAL</h2>
+            <hr />
+            <ul class="list-sitemap">
+                <li><a href="@Url.Action("Index", "Main")" hreflang="sk">Entry page</a></li>
+                <li>@Html.ActionLink("English", (string)ViewBag.LangAction, (string)ViewBag.LangControllerEn, null, new { @hreflang = "en" })</li>
+                <li>@Html.ActionLink("Slovak", (string)ViewBag.LangAction, (string)ViewBag.LangControllerSk, null, new { @hreflang = "sk" })</li>
+            </ul>
+        </div><!-- /.col-md-4 -->
+    </div>
+</div>

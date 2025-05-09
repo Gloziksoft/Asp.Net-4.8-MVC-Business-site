@@ -1,0 +1,55 @@
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\dufeksoft.lib.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\dufeksoft.lib.pdb
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\cs-CZ\dufeksoft.lib.resources.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\sk-SK\dufeksoft.lib.resources.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.AssemblyReference.cache
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.resources
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.cs-CZ.resources
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.sk-SK.resources
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.GenerateResource.cache
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.CoreCompileInputs.cache
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\cs-CZ\dufeksoft.lib.resources.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\sk-SK\dufeksoft.lib.resources.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.CopyComplete
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.dll
+C:\Users\PC Doma\Desktop\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.pdb
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\dufeksoft.lib.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\dufeksoft.lib.pdb
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\cs-CZ\dufeksoft.lib.resources.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\sk-SK\dufeksoft.lib.resources.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\BouncyCastle.Crypto.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\Newtonsoft.Json.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\bin\Debug\Newtonsoft.Json.xml
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.AssemblyReference.cache
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.resources
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.cs-CZ.resources
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.sk-SK.resources
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.GenerateResource.cache
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.CoreCompileInputs.cache
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\cs-CZ\dufeksoft.lib.resources.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\sk-SK\dufeksoft.lib.resources.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.CopyComplete
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.dll
+D:\Moja zaloha Dufeksoft\Moje Subory DUFEKSOFT\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.pdb
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\dufeksoft.lib.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\dufeksoft.lib.pdb
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\cs-CZ\dufeksoft.lib.resources.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\sk-SK\dufeksoft.lib.resources.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.AssemblyReference.cache
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.resources
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.cs-CZ.resources
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.Localization.DufeksoftLibResource.sk-SK.resources
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.GenerateResource.cache
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.csproj.CoreCompileInputs.cache
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\cs-CZ\dufeksoft.lib.resources.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\sk-SK\dufeksoft.lib.resources.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksof.B70EF79F.Up2Date
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.dll
+C:\Users\Peter\source\repos\dufeksoft.lib\dufeksoft.lib\obj\Debug\dufeksoft.lib.pdb

@@ -1,0 +1,3 @@
+Sitemap: https://www.gloziksoft.sk/robots-sitemap.xml
+User-agent: *
+Disallow:
